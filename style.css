@@ -1,0 +1,160 @@
+@charset "UTF"8;
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: tahoma, arial, sans-serif;
+}
+
+#wrapper{
+    width: 1024px;
+    margin: 20px auto;
+}
+
+.logotipo{
+    margin: 15px 80px;
+}
+
+.header-top{
+    background-color: #00182c;
+    height: 50px;
+    position: relative;
+}
+
+.header-nav{
+  position: absolute;
+  top: 0;
+  right: 0;
+  
+}
+
+.header-nav li{
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 12px;
+    line-height: 50px;
+    margin: auto;
+    padding: 0px 15px;
+}
+
+.header-nav a{
+    text-decoration: none;
+    color: #385f7c;
+
+}
+
+.header-nav a:hover{
+    color: white;
+    transition: .5s;
+}
+
+.portfolio{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.h-text{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+.p-text{
+    font-size: 16px;
+    color: #555;
+    padding: 30px;
+    line-height: 2;
+}
+
+.gallery{
+    color: #555;
+ 
+    padding-bottom: 50px;
+    overflow: auto;
+    clear: both;
+}
+
+.gallery-card{
+    width: 32%;
+    float: left;
+    text-align: center;
+}
+
+.gallery-title{
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 10px 0;
+}
+
+.gallery-text{
+    color: rgb(131, 129, 129);
+   font-size: 14px;
+   font-weight: lighter;
+}
+
+.about{
+    background-color:#003d52;
+    background-image: url(imagens/bg_detalhe.png);
+   color: white;
+   padding: 100px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+
+.about h2{
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+.about p{
+    line-height: 2;
+    width: 70%;
+    text-align: left;
+}
+
+.contact{
+ 
+}
+
+.contact address{
+    text-align: center;
+    font-size: 30px;
+    padding: 25px 0;
+    color: #385f7c;
+   font-style: normal;
+   font-weight: bold;
+}
+
+.maps{
+    width: 100%;
+    height: 450px;
+}
+
+.maps iframe{
+    width: 100%;
+
+}
+
+.rodape{
+    background-color: #0b171f;
+    padding: 25px;
+    font-size: 14px;
+    letter-spacing: 4px;
+    color: #385f7c;
+    text-align: center;
+}
+
+.rodape span{
+    text-transform: uppercase;
+}
